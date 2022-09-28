@@ -1,0 +1,52 @@
+body{
+    background-image: url('natural.png');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titles{
+    margin:0px auto;
+    height: 50px;
+    width: 80%;
+}
+.titles{
+    position: fixed;
+    top:0;
+    padding:0px;
+    margin-left: 300px;
+}
+header .titles ul li{
+    position: sticky;
+    top: 0px;
+    float: left;
+    background-color:yellowgreen;
+    color: white;
+    list-style: none;
+    line-height: 60px;
+    height: 60px;
+    width: 250px;
+    text-align: center;
+    opacity: .9;
+   font-size: x-large;
+}
+.titles ul li ul{
+    position: absolute;
+    display: none;
+}
+.titles ul li:hover >ul{
+    display: block;
+    position: relative;
+    right: 40px;
+    bottom: 0px;
+}
+.titles ul li:hover{
+    background-color: chartreuse;
+}
+.titles ul li ul li{
+    position: relative;
+}
+.titles ul li ul li ul{
+    position: absolute;
+    left: 210px;
+    bottom: 100px;
+}
